@@ -17,4 +17,13 @@ extension Application {
     public var remoteImages: State<[URL: Image]> {
         state(initial: [:])
     }
+
+    /// The default dependencies to load when using RemoteImage
+    @discardableResult
+    public static func loadRemoteImageDependencies() -> Application.Type {
+        load(dependency: \.remoteImageStore)
+        load(dependency: \.remoteImageNetwork)
+
+        return Application.self
+    }
 }
