@@ -26,6 +26,23 @@ After successfully adding RemoteImage as a dependency, you need to import Remote
 import RemoteImage
 ```
 
+Finally you will want to load the default dependencies before using them in SwiftUI Views. To do this just call `Application.loadRemoteImageDependencies`.
+
+```swift
+import AppState
+import RemoteImage
+import SwiftUI
+
+@main
+struct ExampleApp: App {
+    init() {
+        Application.loadRemoteImageDependencies()
+    }
+
+    // ...
+}
+```
+
 ## Usage
 
 ### Basic Example
