@@ -85,4 +85,4 @@ If you encounter any issues or need further help, please open an issue.
 
 ## License
 
-RemoteImage is available under the MIT license. See the LICENSE file for more info.
+RemoteImage is available under the MIT license. See the [LICENSE](https://github.com/0xLeif/RemoteImage/blob/main/LICENSE) file for more info.
