@@ -10,7 +10,7 @@ To integrate RemoteImage into your Swift project, you'll need to use the Swift P
 
 1. Add a package dependency to your `Package.swift` file:
 
-```
+```swift
 dependencies: [
     .package(url: "https://github.com/0xLeif/RemoteImage.git", from: "1.0.0")
 ]
