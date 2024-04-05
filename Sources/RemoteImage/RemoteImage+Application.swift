@@ -19,6 +19,7 @@ extension Application {
     }
 
     /// The default dependencies to load when using RemoteImage
+    @discardableResult
     public static func loadRemoteImageDependencies() -> Application.Type {
         load(dependency: \.remoteImageStore)
         load(dependency: \.remoteImageNetwork)
